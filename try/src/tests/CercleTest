@@ -1,0 +1,62 @@
+package tests;
+
+import formes.Cercle;
+import formes.Rectangle;
+import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+public class CercleTest {
+    private Cercle cercle1, cercle2, cercle3, cercle4, cercle5, cercle6;
+
+    @Before
+    public void setUp() throws Exception {
+        cercle1 = new Cercle(1);
+        cercle2 = new Cercle(11);
+        cercle3 = new Cercle(14);
+        cercle4 = new Cercle(6);
+        cercle5 = new Cercle(13);
+        cercle6 = new Cercle(17);
+    }
+
+    @Test
+    public void calculerPerimetre() {
+    }
+
+    @Test
+    public void calculerSurface() {
+    }
+
+    @Test
+    public void testEquals() {
+    }
+
+    @Test
+    public void testToString() {
+    }
+
+    @Test
+    public void main() {
+    }
+
+    @Test
+    public void getCouleur() {
+    }
+
+    @Test
+    public void getRayon() {
+    }
+
+    @Test
+    public void getNom() {
+    }
+
+    @Test
+    public void setCouleur() {
+    }
+
+    @Test
+    public void setRayon() {
+    }
+}
